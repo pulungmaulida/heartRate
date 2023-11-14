@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,300;1,100;1,300&family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .box {
+    border: 2px solid pink;
+    border-radius: 30px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-family: 'Agbalumo';
+    color: darkslateblue;
+    margin: 0;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #ff66b2;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
